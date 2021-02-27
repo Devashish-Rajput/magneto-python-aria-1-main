@@ -89,7 +89,7 @@ You can also change the commands. For help ask in [Telegram Group](https://t.me/
 
 # How to deploy?
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Devashish-Rajput/magneto-python-aria-1/tree/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Devashish-Rajput/magneto-python-aria-1-main/tree/main)
 
 - Configs [Here](https://github.com/RAHUL112KAPOOR/magneto-python-aria-1/tree/main#configs)
 - For any help ask in [Telegram Group](https://t.me/linux_repo):
