@@ -11,8 +11,8 @@ RUN apt-get -qq update && \
     apt-get -qq install -y p7zip-full p7zip-rar aria2 wget curl pv jq ffmpeg locales python3-lxml && \
     apt-get purge -y software-properties-common
 
-RUN wget https://github.com/Devashish-Rajput/magneto-python-aria-1-main/main/authorized_chats.txt
-RUN wget https://github.com/Devashish-Rajput/magneto-python-aria-1-main/main/token.pickle
+RUN wget https://github.com/Devashish-Rajput/magneto-python-aria-1-main/blob/main/authorized_chats.txt
+RUN wget https://github.com/Devashish-Rajput/magneto-python-aria-1-main/blob/main/token.pickle
 COPY requirements.txt .
 COPY extract /usr/local/bin
 RUN chmod +x /usr/local/bin/extract
